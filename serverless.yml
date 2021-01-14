@@ -48,8 +48,8 @@ functions:
     handler: get.main
     events:
       - http:
-          path: notes
-          method: notes/{id}
+          path: notes/{id}
+          method: get
   list:
     handler: list.main
     events:
